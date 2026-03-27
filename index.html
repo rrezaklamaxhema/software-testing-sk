@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Page</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            padding: 15px;
+        }
+
+        main {
+            padding: 40px;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            background: #333;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Website</h1>
+</header>
+
+<main>
+    <h2>Hello 👋</h2>
+    <p>This is my first HTML page.</p>
+
+    <button onclick="showMessage()">Click Me</button>
+</main>
+
+<script>
+    function showMessage() {
+        alert("You clicked the button!");
+    }
+</script>
+
+</body>
+</html>
